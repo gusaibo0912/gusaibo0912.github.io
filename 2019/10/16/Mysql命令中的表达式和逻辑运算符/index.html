@@ -6,15 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | 谷赛博的博客</title>
+  <title>Mysql命令中的表达式和逻辑运算符 | 谷赛博的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="谷赛博的博客">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="比较运算符 运算符                                                         含义    &amp;gt;                                                             大于   &amp;gt;=                                                        大于等">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mysql命令中的表达式和逻辑运算符">
+<meta property="og:url" content="http://yoursite.com/2019/10/16/Mysql命令中的表达式和逻辑运算符/index.html">
 <meta property="og:site_name" content="谷赛博的博客">
+<meta property="og:description" content="比较运算符 运算符                                                         含义    &amp;gt;                                                             大于   &amp;gt;=                                                        大于等">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-10-16T07:57:51.636Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="谷赛博的博客">
+<meta name="twitter:title" content="Mysql命令中的表达式和逻辑运算符">
+<meta name="twitter:description" content="比较运算符 运算符                                                         含义    &amp;gt;                                                             大于   &amp;gt;=                                                        大于等">
   
     <link rel="alternative" href="/atom.xml" title="谷赛博的博客" type="application/atom+xml">
   
@@ -150,103 +154,172 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-Mysql命令中的表达式和逻辑运算符" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      Mysql命令中的表达式和逻辑运算符
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/16/Mysql命令中的表达式和逻辑运算符/" class="archive-article-date">
+
+        
+        <a href="/2019/10/16/Mysql命令中的表达式和逻辑运算符/" class="archive-article-date">
   	<time datetime="2019-10-16T07:43:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-16</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/16/Mysql命令中的表达式和逻辑运算符/">Mysql命令中的表达式和逻辑运算符</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1>比较运算符</h1>
+运算符                                                         含义
+   >                                                             大于
+  >=                                                        大于等于
+   <                                                             小于
+  <= 小于等于="等于" !="或<">                                                     不等于
+IS NULL                                                   是否为空
+IS NOT NULL                                           是否为空
+   IN                                        判断一个值是IN列表中的任意一个值
+NOT IN                                  判断一个值不是IN列表中的任意一个值
+  LIKE                                                      通配符匹配
+BETWEEN AND                            判断一个值是否在两个值之间
+<h1>逻辑运算符</h1>
+逻辑运算符有And(或者&&)、Or(或者||)和(或者!)
+And和Or运算符链接条件,Not否定条件.And连接条件，并且仅当两个条件都为真时才返回1。
+Or也连接两个条件,但只要其中任意一个为真就返回1。
+当一个语句中使用了多个逻辑运算符时,运算时先求Not的值,然后求and的值,最后再求Or的值。
+</=>
+      
 
-        <div class="article-info info-on-right">
-          
-          
-
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/16/Mysql命令中的表达式和逻辑运算符/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/14/Mysql增删改/" class="archive-article-date">
-  	<time datetime="2019-10-14T09:11:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-14</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/10/14/Mysql增删改/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Mysql增删改</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/14/Mysql增删改/">Mysql增删改</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/11/这是第一章/" class="archive-article-date">
-  	<time datetime="2019-10-11T12:45:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-11</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/11/这是第一章/">这是第一章</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -269,8 +342,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
